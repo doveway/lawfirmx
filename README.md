@@ -19,13 +19,21 @@ Setting Up Database
 
 Getting Emails
 1. Open the .env file and edit the code below with your mailtrap.io credentials
+
 MAIL_MAILER=smtp
+
 MAIL_HOST=smtp.mailtrap.io
+
 MAIL_PORT=2525
+
 MAIL_USERNAME=511f3217699be8
+
 MAIL_PASSWORD=f61854bccfaebd
+
 MAIL_ENCRYPTION=tls
+
 MAIL_FROM_ADDRESS=doveway@lawfirmx.com
+
 MAIL_FROM_NAME="${APP_NAME}"
 
 LUNCH THE APPLICATION
