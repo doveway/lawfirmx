@@ -17,5 +17,17 @@ Setting Up Database
 1. At phpmyadmin, create a database called lawfirmx_clients
 2. You canrun migrations using php artisan migrate or upload the sql file to your database to automatically create tables and insert fields. The sql file name is lawfirmx_clients.sql
 
+Getting Emails
+1. Open the .env file and edit the code below with your mailtrap.io credentials
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=511f3217699be8
+MAIL_PASSWORD=f61854bccfaebd
+MAIL_ENCRYPTION=tls
+MAIL_FROM_ADDRESS=doveway@lawfirmx.com
+MAIL_FROM_NAME="${APP_NAME}"
+
 LUNCH THE APPLICATION
+
 Using localhost, lunch the application (Please ensure wampserver is running)
