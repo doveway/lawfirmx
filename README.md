@@ -2,7 +2,7 @@
 
 Welcome To LawFirm X
 
-This is a laravel 8 project.
+This is a laravel 8 project (A client management system).
 
 To use the project please do the following:
 1. Download the zipped folder and extract its content(it should be in a folder named lawfirmx)
