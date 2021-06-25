@@ -14,4 +14,8 @@ There is no node_modules folder, to get the folder do the following
 2. Rum npm install to recover the node_modules folder
 
 Setting Up Database
-At phpmyadmin, create a database called lawfirmx_clients
+1. At phpmyadmin, create a database called lawfirmx_clients
+2. You canrun migrations using php artisan migrate or upload the sql file to your database to automatically create tables and insert fields. The sql file name is lawfirmx_clients.sql
+
+LUNCH THE APPLICATION
+Using localhost, lunch the application (Please ensure wampserver is running)
